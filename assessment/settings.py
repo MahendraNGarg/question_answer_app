@@ -25,7 +25,7 @@ SECRET_KEY = '*=ma+!!v+ia**u2bjqki!=)tp#(vjcm*8&zvsne%wn2#*x3jhf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['question-assessment.herokuapp.com']
 
 
 # Application definition
