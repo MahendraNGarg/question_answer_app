@@ -7,4 +7,3 @@ staticfiles
 *.py[co]
 .tox/
 __pycache__
-README.md
