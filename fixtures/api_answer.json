@@ -1,0 +1,83 @@
+[
+    {
+        "model": "api.answer",
+        "pk": 1,
+        "fields": {
+            "body": "Yes",
+            "question": 1,
+            "user": 2
+        }
+    },
+    {
+        "model": "api.answer",
+        "pk": 2,
+        "fields": {
+            "body": "No",
+            "question": 1,
+            "user": 1
+        }
+    },
+    {
+        "model": "api.answer",
+        "pk": 3,
+        "fields": {
+            "body": "MCA",
+            "question": 3,
+            "user": 1
+        }
+    },
+    {
+        "model": "api.answer",
+        "pk": 4,
+        "fields": {
+            "body": "Gwalior",
+            "question": 2,
+            "user": 1
+        }
+    },
+    {
+        "model": "api.answer",
+        "pk": 5,
+        "fields": {
+            "body": "Indore",
+            "question": 2,
+            "user": 2
+        }
+    },
+    {
+        "model": "api.answer",
+        "pk": 6,
+        "fields": {
+            "body": "My passion is coding.",
+            "question": 4,
+            "user": 1
+        }
+    },
+    {
+        "model": "api.answer",
+        "pk": 7,
+        "fields": {
+            "body": "Waves",
+            "question": 5,
+            "user": 2
+        }
+    },
+    {
+        "model": "api.answer",
+        "pk": 8,
+        "fields": {
+            "body": "No, I do not.",
+            "question": 6,
+            "user": 3
+        }
+    },
+    {
+        "model": "api.answer",
+        "pk": 9,
+        "fields": {
+            "body": "Yes",
+            "question": 7,
+            "user": 2
+        }
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "model": "api.question",
+        "pk": 1,
+        "fields": {
+            "title": "Is This is the test question?",
+            "private": false,
+            "user": 1
+        }
+    },
+    {
+        "model": "api.question",
+        "pk": 2,
+        "fields": {
+            "title": "What is your native place?",
+            "private": true,
+            "user": 1
+        }
+    },
+    {
+        "model": "api.question",
+        "pk": 3,
+        "fields": {
+            "title": "What is your highest qualification?",
+            "private": false,
+            "user": 2
+        }
+    },
+    {
+        "model": "api.question",
+        "pk": 4,
+        "fields": {
+            "title": "What is your passion?",
+            "private": false,
+            "user": 1
+        }
+    },
+    {
+        "model": "api.question",
+        "pk": 5,
+        "fields": {
+            "title": "What inspired you?",
+            "private": false,
+            "user": 1
+        }
+    },
+    {
+        "model": "api.question",
+        "pk": 6,
+        "fields": {
+            "title": "Do you like to celebrate your birthday?",
+            "private": false,
+            "user": 2
+        }
+    },
+    {
+        "model": "api.question",
+        "pk": 7,
+        "fields": {
+            "title": "Do you have girlfriend?",
+            "private": true,
+            "user": 1
+        }
+    }
+]
+
+

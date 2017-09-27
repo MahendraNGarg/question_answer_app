@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Assessment</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        </head>
+        
+        <body>
+            <div class="container-fluid">
+                <div class="col-md-12 text-center">
+                    <h3 class="text-center">Question & Answer Data Analysis</h3>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h2>No of Questions</h2>
+                            <h3>{{questions}}</h3>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <h2>No of Answers</h2>
+                            <h3>{{answers}}</h3>
+                        </div>
+                        
+                        <div class="col-sm-3">
+                            <h2>No of Tenants</h2>
+                            <h3>{{object_list.count}}</h3>
+                        </div>
+                        
+                        <div class="col-sm-3">
+                            <h2>No of Users</h2>
+                            <h3>{{users}}</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <h3>Tenant Table</h3>
+                    <table class="table table-striped text-center">
+                        <thead>
+                            <tr>
+                                <td><strong>API Name</strong></td>
+                                <td><strong>API Key</strong></td>
+                                <td><strong>API Count</strong></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for tenant in object_list %}
+                            <tr>
+                                <td>{{tenant.name}}</td>
+                                <td>{{tenant.api_key}}</td>
+                                <td>{{tenant.api_count}}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </body>
+    </html>

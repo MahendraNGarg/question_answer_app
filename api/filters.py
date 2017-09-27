@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+
+import django_filters
+from . import models
+
+
+class QuestionFilter(django_filters.FilterSet):
+
+    class Meta:
+        model = models.Question
+        char_search_fields = [
+            'exact',
+            'contains',
+            'in',
+            'startswith',
+            'istartswith',
+            'icontains',
+        ]
+        fields = {
+            "title": char_search_fields
+        }
